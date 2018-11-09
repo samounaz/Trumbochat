@@ -1,6 +1,6 @@
 # Trumbochat
 
-Un tchat qu'il est simple, pas très utile, mais c'est suffisant pour comprendre le fonctionnement des websockets avec Socket.IO
+Un tchat qui est simple, pas très utile, mais c'est suffisant pour comprendre le fonctionnement des websockets avec Socket.io
 
 
 ## Démonstration
@@ -23,7 +23,9 @@ C'est très simple :
 
 - Placez ce dépôt dans votre serveur web statique
 - Executez ```npm install``` pour installer les dépendances
-- Lancez le serveur ```node server.js```
+- Lancez le serveur
+	- Avec npm : ```npm start```
+	- Ou directement avec NodeJS : ```node server.js```
 
 Vous pourrez changer le port d'écoute (1337 par défaut) :
 
